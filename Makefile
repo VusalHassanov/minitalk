@@ -14,8 +14,8 @@ BONUS_DIR		= bonus
 LIBFT_DIR		= lib_ft
 LIBFT			= $(LIBFT_DIR)/libft.a
 
-PRINTF_DIR		= libftprintf.a
-PRINTF			= $(PRINTF_DIR)/libftprintf.a
+PRINTF_DIR		= libft_printf
+PRINTF			= $(PRINTF_DIR)/libft_printf.a
 
 # Mandatory and bonus source files
 MANDATORY_SRCS = $(addprefix $(MANDATORY_DIR)/, server.c client.c)
