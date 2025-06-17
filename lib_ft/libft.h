@@ -6,13 +6,14 @@
 /*   By: vhasanov <vhasanov@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/15 20:02:00 by vhasanov          #+#    #+#             */
-/*   Updated: 2024/12/12 23:27:45 by vhasanov         ###   ########.fr       */
+/*   Updated: 2025/06/13 19:44:18 by vhasanov         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #ifndef LIBFT_H
 # define LIBFT_H
 
+# include "ft_printf/ft_printf.h"
 # include <stdlib.h>
 # include <unistd.h>
 
@@ -32,6 +33,7 @@ int		ft_toupper(int c);
 int		ft_tolower(int c);
 char	*ft_strchr(const char *str, int c);
 char	*ft_strrchr(const char *str, int c);
+int		ft_strcmp(const char *str1, const char *str2);
 int		ft_strncmp(const char *str1, const char *str2, size_t n);
 void	*ft_memchr(const void *ptr, int value, size_t num);
 int		ft_memcmp(const void *ptr1, const void *ptr2, size_t num);
